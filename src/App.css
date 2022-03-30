@@ -28,10 +28,11 @@
   font-size: 20px;
   max-width: 1000px;
   font-weight: 600;
+  text-align: center;
 }
 
 .photos {
-  width: 400px;
+  max-width: 450px;
 }
 
 .delete button{
@@ -60,11 +61,28 @@
 }
 .her {
   height: 3px;
-  width: 500px;
+  max-width: 500px;
   border-color: rgb(121, 187, 181);
   background-color: rgb(121, 187, 181);
 }
 
 body {
   background-color: rgb(173, 179, 185);
+}
+
+
+@media all and (max-width : 500px){
+  h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  h2{
+    font-size: 23px;
+  }
+  p{
+    font-size: 17px;
+  }
+  .photos {
+    max-width: 300px;
+  }
 }
